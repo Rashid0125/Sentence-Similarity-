@@ -1,0 +1,17 @@
+# Sentence-Similarity-
+
+Introduction : 
+High-performance semantic similarity with BERT
+
+
+{https://miro.medium.com/max/1190/1*wvcA77k94ImM0n_7ysijEQ.png}
+
+
+
+BERT is the MVP of NLP. And a big part of this is down to BERTs ability to embed the meaning of 
+words into densely packed vectors.
+We call them dense vectors because every value within the vector has a value and has a reason for 
+being that value — this is in contrast to sparse vectors, such as one-hot encoded vectors where the 
+majority of values are 0.
+BERT is great at creating these dense vectors, and each encoder layer (there are several) outputs a set 
+of dense vectors.
